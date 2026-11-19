@@ -429,9 +429,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let img = item.getAttribute('data-img') || '';
         let title = item.getAttribute('data-title') || 'Project Preview';
-        let cat = item.getAttribute('data-cat') || (isArchive ? 'Archived Portfolio' : 'Creative Work');
-        let tools = item.getAttribute('data-tools') || (isArchive ? 'Graphic Design Archive' : 'Digital Craft');
-        let desc = item.getAttribute('data-desc') || (isArchive ? 'Arsip portofolio karya grafis Yudha Pradana.' : 'Proyek desain grafis dan editing digital 2025 tanpa menggunakan AI.');
+        let cat = item.getAttribute('data-cat') || (isArchive ? 'portofolio' : 'Cooming soon');
+        let tools = item.getAttribute('data-tools') || (isArchive ? 'portofolio ' : 'cooming soon');
+        let desc = item.getAttribute('data-desc') || (isArchive ? 'cooming soon' : 'Portofolio.');
 
         if (lightboxImg) lightboxImg.src = img;
         if (lightboxCat) lightboxCat.textContent = cat;
@@ -578,5 +578,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize sound hooks
     attachSoundTriggers();
 
-    console.log('Portfolio 2025 loaded successfully for Yudha Pradana.');
+    console.log('Portfolio 2026 loaded successfully for balzz.');
 });
